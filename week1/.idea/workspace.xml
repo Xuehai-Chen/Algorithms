@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c4fbef2-8da6-43fc-b80b-536739b9c408" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../week2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../week2/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/../week3/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../week3/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/../week4/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../week4/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/../week5/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../week5/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../week5/kdtree.iml" afterPath="$PROJECT_DIR$/../week5/kdtree.iml" />
-      <change beforePath="$PROJECT_DIR$/../week5/src/KdTree.java" afterPath="$PROJECT_DIR$/../week5/src/KdTree.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -94,8 +92,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1924" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -609,12 +609,20 @@
       <workItem from="1500367915982" duration="950000" />
       <workItem from="1500370597184" duration="32000" />
       <workItem from="1509771334224" duration="366000" />
-      <workItem from="1515318265761" duration="675000" />
+      <workItem from="1515318265761" duration="864000" />
     </task>
+    <task id="LOCAL-00001" summary="specify import">
+      <created>1515318957547</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1515318957547</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29491000" />
+    <option name="totallyTimeSpent" value="29680000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -664,6 +672,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="specify import" />
+    <option name="LAST_COMMIT_MESSAGE" value="specify import" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

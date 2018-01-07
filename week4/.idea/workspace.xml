@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="387b51ed-80e1-44f2-9c5b-80578cb76ccc" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../week1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../week1/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../week2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../week2/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/../week3/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../week3/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/../week5/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../week5/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../week5/kdtree.iml" afterPath="$PROJECT_DIR$/../week5/kdtree.iml" />
-      <change beforePath="$PROJECT_DIR$/../week5/src/KdTree.java" afterPath="$PROJECT_DIR$/../week5/src/KdTree.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,8 +62,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1924" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -551,7 +551,7 @@
       <workItem from="1499947793511" duration="1611000" />
       <workItem from="1500103922988" duration="65000" />
       <workItem from="1500104744725" duration="6000" />
-      <workItem from="1515318707566" duration="235000" />
+      <workItem from="1515318707566" duration="424000" />
     </task>
     <task id="LOCAL-00001" summary="specify import">
       <created>1515318767158</created>
@@ -571,7 +571,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80706000" />
+    <option name="totallyTimeSpent" value="80895000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />

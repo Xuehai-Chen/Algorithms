@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a9f7241-f194-48a0-a6d4-43c83499a4b1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../week1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../week1/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../week2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../week2/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../week3/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../week3/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../week4/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../week4/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -104,8 +107,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1924" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -635,7 +640,7 @@
       <workItem from="1500166845443" duration="35604000" />
       <workItem from="1500249503194" duration="8040000" />
       <workItem from="1500278559988" duration="6348000" />
-      <workItem from="1515318848153" duration="95000" />
+      <workItem from="1515318848153" duration="284000" />
     </task>
     <task id="LOCAL-00001" summary="specify import">
       <created>1515318930386</created>
@@ -648,7 +653,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63107000" />
+    <option name="totallyTimeSpent" value="63296000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
