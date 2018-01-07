@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb710af7-7bcd-47fd-8ff6-9c562c02ea9d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../week1/.idea/libraries/algs4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../week1/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../week2/.idea/libraries/algs4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../week2/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/algs4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/../week1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../week1/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../week1/Percolation.iml" afterPath="$PROJECT_DIR$/../week1/Percolation.iml" />
-      <change beforePath="$PROJECT_DIR$/../week2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../week2/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../week2/DequeRandomizedQuenes.iml" afterPath="$PROJECT_DIR$/../week2/DequeRandomizedQuenes.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Pattern Recognition.iml" afterPath="$PROJECT_DIR$/Pattern Recognition.iml" />
-      <change beforePath="$PROJECT_DIR$/src/FastCollinearPoints.java" afterPath="$PROJECT_DIR$/src/FastCollinearPoints.java" />
+      <change beforePath="$PROJECT_DIR$/../week4/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../week4/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../week4/8puzzle.iml" afterPath="$PROJECT_DIR$/../week4/8puzzle.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -605,12 +595,20 @@
       <workItem from="1499568208612" duration="13956000" />
       <workItem from="1499664458359" duration="640000" />
       <workItem from="1500104699475" duration="39000" />
-      <workItem from="1515318547630" duration="83000" />
+      <workItem from="1515318547630" duration="207000" />
     </task>
+    <task id="LOCAL-00001" summary="specify import">
+      <created>1515318669572</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1515318669573</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71318000" />
+    <option name="totallyTimeSpent" value="71442000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -652,6 +650,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="specify import" />
+    <option name="LAST_COMMIT_MESSAGE" value="specify import" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
