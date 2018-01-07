@@ -5,6 +5,8 @@ import java.lang.*;
 import java.util.Arrays;
 import edu.princeton.cs.algs4.Quick3way;
 import edu.princeton.cs.algs4.StdDraw;
+import edu.princeton.cs.algs4.In;
+import edu.princeton.cs.algs4.StdOut;
 
 public class FastCollinearPoints {
     private int num;
