@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb710af7-7bcd-47fd-8ff6-9c562c02ea9d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../week4/.idea/libraries/algs4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../week4/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/../week1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../week1/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/../week4/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../week4/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../week4/8puzzle.iml" afterPath="$PROJECT_DIR$/../week4/8puzzle.iml" />
+      <change beforePath="$PROJECT_DIR$/../week5/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../week5/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../week5/kdtree.iml" afterPath="$PROJECT_DIR$/../week5/kdtree.iml" />
+      <change beforePath="$PROJECT_DIR$/../week5/src/KdTree.java" afterPath="$PROJECT_DIR$/../week5/src/KdTree.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -108,10 +109,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -599,7 +598,7 @@
       <workItem from="1499568208612" duration="13956000" />
       <workItem from="1499664458359" duration="640000" />
       <workItem from="1500104699475" duration="39000" />
-      <workItem from="1515318547630" duration="248000" />
+      <workItem from="1515318547630" duration="355000" />
     </task>
     <task id="LOCAL-00001" summary="specify import">
       <created>1515318669572</created>
@@ -612,10 +611,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71483000" />
+    <option name="totallyTimeSpent" value="71590000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
