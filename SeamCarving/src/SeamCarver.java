@@ -1,3 +1,4 @@
+import edu.princeton.cs.algs4.Bag;
 import edu.princeton.cs.algs4.Picture;
 
 import java.awt.Color;
@@ -6,12 +7,36 @@ import java.lang.Math;
 public class SeamCarver {
     private Picture picture;
     private double[][] energy;
+    private Bag<Integer>[] hadj, vadj;
+    private int source=-1;
+    private int target=Integer.MAX_VALUE;
 
     // create a seam carver object based on the given picture
     public SeamCarver(Picture picture) {
         this.picture = new Picture(picture);
         this.energy = new double[this.width()][this.height()];
         this.setEnergy();
+        this.hadj = (Bag<Integer>[]) new Bag[(this.width() - 1) * this.height()];
+        this.vadj = (Bag<Integer>[]) new Bag[this.width() * (this.height() - 1)];
+        setAdj();
+    }
+
+    private void setAdj() {
+        for (int i = 0; i < this.height() - 1; i++) {
+            for (int j = 0; j < this.width(); j++) {
+                if (j == 0) {
+                    this.vadj[i * this.width() + j].add((i + 1) * this.width() + j);
+                    this.vadj[i * this.width() + j].add((i + 1) * this.width() + j + 1);
+                } else if (j == this.width() - 1) {
+                    this.vadj[i * this.width() + j].add((i + 1) * this.width() + j - 1);
+                    this.vadj[i * this.width() + j].add((i + 1) * this.width() + j);
+                } else {
+                    this.vadj[i * this.width() + j].add((i + 1) * this.width() + j - 1);
+                    this.vadj[i * this.width() + j].add((i + 1) * this.width() + j);
+                    this.vadj[i * this.width() + j].add((i + 1) * this.width() + j + 1);
+                }
+            }
+        }
     }
 
     // current picture
