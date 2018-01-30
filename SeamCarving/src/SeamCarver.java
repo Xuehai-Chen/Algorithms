@@ -7,8 +7,9 @@ import java.lang.Math;
 public class SeamCarver {
     private Picture picture;
     private double[][] energy;
-    private Bag<Integer>[] hadj, vadj;
-    private int source = -1;
+    private Bag<Integer>[] adj;
+    private double[] distTo;
+    private int[] pathTo;
     private int target = Integer.MAX_VALUE;
 
     // create a seam carver object based on the given picture
@@ -16,27 +17,35 @@ public class SeamCarver {
         this.picture = new Picture(picture);
         this.energy = new double[this.width()][this.height()];
         this.setEnergy();
-        this.hadj = (Bag<Integer>[]) new Bag[(this.width() - 1) * this.height()];
-        this.vadj = (Bag<Integer>[]) new Bag[this.width() * (this.height() - 1)];
-
+        this.adj = (Bag<Integer>[]) new Bag[this.width() * this.height()];
+        this.distTo = new double[this.width() * this.height()];
+        for (int i = 0; i < this.height() * this.width(); i++) {
+            if (i < this.width()) {
+                distTo[i] = energy[i][0];
+            } else {
+                distTo[i] = Double.MAX_VALUE;
+            }
+        }
+        this.pathTo = new int[this.width() * this.height()];
         setAdj();
     }
 
     private void setAdj() {
-        for (int i = 0; i < this.height() - 1; i++) {
-
+        for (int i = 0; i < this.height(); i++) {
             for (int j = 0; j < this.width(); j++) {
-                this.vadj[i * this.width() + j] = new Bag();
-                if (j == 0) {
-                    this.vadj[i * this.width() + j].add((i + 1) * this.width() + j);
-                    this.vadj[i * this.width() + j].add((i + 1) * this.width() + j + 1);
-                } else if (j == this.width() - 1) {
-                    this.vadj[i * this.width() + j].add((i + 1) * this.width() + j - 1);
-                    this.vadj[i * this.width() + j].add((i + 1) * this.width() + j);
-                } else {
-                    this.vadj[i * this.width() + j].add((i + 1) * this.width() + j - 1);
-                    this.vadj[i * this.width() + j].add((i + 1) * this.width() + j);
-                    this.vadj[i * this.width() + j].add((i + 1) * this.width() + j + 1);
+                this.adj[i * this.width() + j] = new Bag();
+                if (i > 0) {
+                    if (j == 0) {
+                        this.adj[i * this.width() + j].add((i - 1) * this.width() + j);
+                        this.adj[i * this.width() + j].add((i - 1) * this.width() + j + 1);
+                    } else if (j == this.width() - 1) {
+                        this.adj[i * this.width() + j].add((i - 1) * this.width() + j - 1);
+                        this.adj[i * this.width() + j].add((i - 1) * this.width() + j);
+                    } else {
+                        this.adj[i * this.width() + j].add((i - 1) * this.width() + j - 1);
+                        this.adj[i * this.width() + j].add((i - 1) * this.width() + j);
+                        this.adj[i * this.width() + j].add((i - 1) * this.width() + j + 1);
+                    }
                 }
             }
         }
@@ -92,11 +101,29 @@ public class SeamCarver {
     // sequence of indices for vertical seam
     public int[] findVerticalSeam() {
         int[] res = new int[this.height()];
+        for (int i = this.width(); i < this.height() * this.width(); i++) {
+            for (int adj : this.adj[i]) {
+                relax(adj, i);
+            }
+        }
+        res[this.height() - 1] = this.width() - 1;
+        for (int i = (this.height() - 1) * this.width(); i < this.height() * this.width(); i++) {
+            if (distTo[i] < distTo[res[this.height() - 1]+this.width()*(this.height()-1)]) {
+                res[this.height() - 1] = i % this.width();
+            }
+        }
+        for (int i = this.height() - 2; i >= 0; i--) {
+            res[i] = pathTo[res[i + 1] + this.width() * (i+1)] % this.width();
+        }
         return res;
     }
 
-    private void relax() {
-
+    private void relax(int s, int t) {
+        double weight = energy[t % this.width()][t / this.width()];
+        if (this.distTo[t] > this.distTo[s] + weight) {
+            this.distTo[t] = this.distTo[s] + weight;
+            this.pathTo[t] = s;
+        }
     }
 
     // remove horizontal seam from current picture
