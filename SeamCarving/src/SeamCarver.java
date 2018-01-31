@@ -7,44 +7,45 @@ import java.lang.Math;
 public class SeamCarver {
     private Picture picture;
     private double[][] energy;
-    private Bag<Integer>[] adj;
-    private double[] distTo;
-    private int[] pathTo;
-    private int target = Integer.MAX_VALUE;
+    private Bag<Integer>[][] adj;
+    private double[][] distTo;
+    private int[][] pathTo;
 
     // create a seam carver object based on the given picture
     public SeamCarver(Picture picture) {
         this.picture = new Picture(picture);
         this.energy = new double[this.width()][this.height()];
         this.setEnergy();
-        this.adj = (Bag<Integer>[]) new Bag[this.width() * this.height()];
-        this.distTo = new double[this.width() * this.height()];
-        for (int i = 0; i < this.height() * this.width(); i++) {
-            if (i < this.width()) {
-                distTo[i] = energy[i][0];
-            } else {
-                distTo[i] = Double.MAX_VALUE;
+        this.adj = (Bag<Integer>[][]) new Bag[this.width()][this.height()];
+        this.distTo = new double[this.width()][this.height()];
+        for (int i = 0; i < this.width(); i++) {
+            for (int j = 0; j < this.height(); j++) {
+                if (j == 0) {
+                    distTo[i][j] = energy[i][0];
+                } else {
+                    distTo[i][j] = Double.MAX_VALUE;
+                }
             }
         }
-        this.pathTo = new int[this.width() * this.height()];
+        this.pathTo = new int[this.width()][this.height()];
         setAdj();
     }
 
     private void setAdj() {
-        for (int i = 0; i < this.height(); i++) {
-            for (int j = 0; j < this.width(); j++) {
-                this.adj[i * this.width() + j] = new Bag();
-                if (i > 0) {
-                    if (j == 0) {
-                        this.adj[i * this.width() + j].add((i - 1) * this.width() + j);
-                        this.adj[i * this.width() + j].add((i - 1) * this.width() + j + 1);
-                    } else if (j == this.width() - 1) {
-                        this.adj[i * this.width() + j].add((i - 1) * this.width() + j - 1);
-                        this.adj[i * this.width() + j].add((i - 1) * this.width() + j);
+        for (int i = 0; i < this.width(); i++) {
+            for (int j = 0; j < this.height(); j++) {
+                this.adj[i][j] = new Bag();
+                if (j > 0) {
+                    if (i == 0) {
+                        this.adj[i][j].add((j - 1) * this.width() + i);
+                        this.adj[i][j].add((j - 1) * this.width() + i + 1);
+                    } else if (i == this.width() - 1) {
+                        this.adj[i][j].add((j - 1) * this.width() + i - 1);
+                        this.adj[i][j].add((j - 1) * this.width() + i);
                     } else {
-                        this.adj[i * this.width() + j].add((i - 1) * this.width() + j - 1);
-                        this.adj[i * this.width() + j].add((i - 1) * this.width() + j);
-                        this.adj[i * this.width() + j].add((i - 1) * this.width() + j + 1);
+                        this.adj[i][j].add((j - 1) * this.width() + i - 1);
+                        this.adj[i][j].add((j - 1) * this.width() + i);
+                        this.adj[i][j].add((j - 1) * this.width() + i + 1);
                     }
                 }
             }
@@ -94,7 +95,10 @@ public class SeamCarver {
 
     // sequence of indices for horizontal seam
     public int[] findHorizontalSeam() {
-        int[] res = new int[this.width()];
+        this.picture.setOriginLowerLeft();
+        SeamCarver sc = new SeamCarver(this.picture);
+        int[] res = sc.findVerticalSeam();
+        this.picture.setOriginUpperLeft();
         return res;
     }
 
@@ -102,27 +106,31 @@ public class SeamCarver {
     public int[] findVerticalSeam() {
         int[] res = new int[this.height()];
         for (int i = this.width(); i < this.height() * this.width(); i++) {
-            for (int adj : this.adj[i]) {
+            for (int adj : this.adj[i % this.width()][i / this.width()]) {
                 relax(adj, i);
             }
         }
         res[this.height() - 1] = this.width() - 1;
-        for (int i = (this.height() - 1) * this.width(); i < this.height() * this.width(); i++) {
-            if (distTo[i] < distTo[res[this.height() - 1]+this.width()*(this.height()-1)]) {
-                res[this.height() - 1] = i % this.width();
+        for (int i = 0; i < this.width(); i++) {
+            if (distTo[i][this.height()-1] < distTo[res[this.height()-1]][this.height()-1]) {
+                res[this.height() - 1] = i;
             }
         }
         for (int i = this.height() - 2; i >= 0; i--) {
-            res[i] = pathTo[res[i + 1] + this.width() * (i+1)] % this.width();
+            res[i] = pathTo[res[i + 1]][i + 1]%this.width();
         }
         return res;
     }
 
     private void relax(int s, int t) {
-        double weight = energy[t % this.width()][t / this.width()];
-        if (this.distTo[t] > this.distTo[s] + weight) {
-            this.distTo[t] = this.distTo[s] + weight;
-            this.pathTo[t] = s;
+        int sx = s % this.width();
+        int sy = s / this.width();
+        int tx = t % this.width();
+        int ty = t / this.width();
+        double weight = energy[tx][ty];
+        if (this.distTo[tx][ty] > this.distTo[sx][sy] + weight) {
+            this.distTo[tx][ty] = this.distTo[sx][sy] + weight;
+            this.pathTo[tx][ty] = s;
         }
     }
 
