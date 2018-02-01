@@ -13,6 +13,7 @@ public class SeamCarver {
 
     // create a seam carver object based on the given picture
     public SeamCarver(Picture picture) {
+        if(picture==null) throw new IllegalArgumentException();
         this.picture = new Picture(picture);
         this.energy = new double[this.width()][this.height()];
         this.setEnergy();
@@ -54,7 +55,7 @@ public class SeamCarver {
 
     // current picture
     public Picture picture() {
-        return this.picture;
+        return new Picture(this.picture);
     }
 
     // width of current picture
@@ -69,6 +70,7 @@ public class SeamCarver {
 
     // energy of pixel at column x and row y
     public double energy(int x, int y) {
+        if(x<0||x>this.width()-1||y<0||y>this.height()-1) throw new IllegalArgumentException();
         return this.energy[x][y];
     }
 
@@ -95,10 +97,10 @@ public class SeamCarver {
 
     // sequence of indices for horizontal seam
     public int[] findHorizontalSeam() {
-        this.picture.setOriginLowerLeft();
+        this.picture = this.transpose(this.picture);
         SeamCarver sc = new SeamCarver(this.picture);
         int[] res = sc.findVerticalSeam();
-        this.picture.setOriginUpperLeft();
+        this.picture = this.transpose(this.picture);
         return res;
     }
 
@@ -112,12 +114,12 @@ public class SeamCarver {
         }
         res[this.height() - 1] = this.width() - 1;
         for (int i = 0; i < this.width(); i++) {
-            if (distTo[i][this.height()-1] < distTo[res[this.height()-1]][this.height()-1]) {
+            if (distTo[i][this.height() - 1] < distTo[res[this.height() - 1]][this.height() - 1]) {
                 res[this.height() - 1] = i;
             }
         }
         for (int i = this.height() - 2; i >= 0; i--) {
-            res[i] = pathTo[res[i + 1]][i + 1]%this.width();
+            res[i] = pathTo[res[i + 1]][i + 1] % this.width();
         }
         return res;
     }
@@ -136,12 +138,46 @@ public class SeamCarver {
 
     // remove horizontal seam from current picture
     public void removeHorizontalSeam(int[] seam) {
-
+        this.picture = this.transpose(this.picture);
+        SeamCarver sc = new SeamCarver(this.picture);
+        sc.removeVerticalSeam(seam);
+        this.picture = this.transpose(sc.picture);
     }
 
     // remove vertical seam from current picture
     public void removeVerticalSeam(int[] seam) {
+        this.checkValidSeam(seam,this.width(),this.height());
+        Picture p = new Picture(this.width() - 1, this.height());
+        for (int j = 0; j < this.height(); j++) {
+            for (int i = 0; i < this.width() - 1; i++) {
+                if (i < seam[j]) {
+                    p.set(i, j, this.picture.get(i, j));
+                } else {
+                    p.set(i, j, this.picture.get(i + 1, j));
+                }
+            }
+        }
+        this.picture = p;
+    }
 
+    private Picture transpose(Picture picture) {
+        int h = picture.height();
+        int w = picture.width();
+        Picture res = new Picture(h, w);
+        for (int i = 0; i < w; i++) {
+            for (int j = 0; j < h; j++) {
+                res.set(j, i, picture.get(i, j));
+            }
+        }
+        return res;
+    }
+
+    private void checkValidSeam(int[] seam, int index,int count){
+        if(seam==null||seam.length!=count) throw new IllegalArgumentException();
+        for(int i=0;i<seam.length;i++){
+            if(seam[i]<0||seam[i]>(index-1)) throw new IllegalArgumentException();
+            if(i>0&&Math.abs(seam[i]-seam[i-1])>1) throw new IllegalArgumentException();
+        }
     }
 
 }
