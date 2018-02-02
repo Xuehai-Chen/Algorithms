@@ -15,9 +15,13 @@ public class SeamCarver {
     public SeamCarver(Picture picture) {
         if(picture==null) throw new IllegalArgumentException();
         this.picture = new Picture(picture);
-        this.energy = new double[this.width()][this.height()];
         this.setEnergy();
-        this.adj = (Bag<Integer>[][]) new Bag[this.width()][this.height()];
+        this.setDistTo();
+        this.setPathTo();
+        this.setAdj();
+    }
+
+    private void setDistTo() {
         this.distTo = new double[this.width()][this.height()];
         for (int i = 0; i < this.width(); i++) {
             for (int j = 0; j < this.height(); j++) {
@@ -28,11 +32,14 @@ public class SeamCarver {
                 }
             }
         }
+    }
+
+    private void setPathTo() {
         this.pathTo = new int[this.width()][this.height()];
-        setAdj();
     }
 
     private void setAdj() {
+        this.adj = (Bag<Integer>[][]) new Bag[this.width()][this.height()];
         for (int i = 0; i < this.width(); i++) {
             for (int j = 0; j < this.height(); j++) {
                 this.adj[i][j] = new Bag();
@@ -75,6 +82,7 @@ public class SeamCarver {
     }
 
     private void setEnergy() {
+        this.energy = new double[this.width()][this.height()];
         for (int x = 0; x < this.width(); x++) {
             for (int y = 0; y < this.height(); y++) {
                 if (x == 0 || x == this.width() - 1 || y == 0 || y == this.height() - 1) {
@@ -97,10 +105,9 @@ public class SeamCarver {
 
     // sequence of indices for horizontal seam
     public int[] findHorizontalSeam() {
-        this.picture = this.transpose(this.picture);
-        SeamCarver sc = new SeamCarver(this.picture);
+        SeamCarver sc = new SeamCarver(this.transpose(this.picture));
         int[] res = sc.findVerticalSeam();
-        this.picture = this.transpose(this.picture);
+        this.picture = sc.transpose(sc.picture);
         return res;
     }
 
@@ -138,10 +145,13 @@ public class SeamCarver {
 
     // remove horizontal seam from current picture
     public void removeHorizontalSeam(int[] seam) {
-        this.picture = this.transpose(this.picture);
-        SeamCarver sc = new SeamCarver(this.picture);
+        SeamCarver sc = new SeamCarver(this.transpose(this.picture));
         sc.removeVerticalSeam(seam);
-        this.picture = this.transpose(sc.picture);
+        this.picture = sc.transpose(sc.picture);
+        this.setEnergy();
+        this.setDistTo();
+        this.setPathTo();
+        this.setAdj();
     }
 
     // remove vertical seam from current picture
@@ -158,6 +168,10 @@ public class SeamCarver {
             }
         }
         this.picture = p;
+        this.setEnergy();
+        this.setDistTo();
+        this.setPathTo();
+        this.setAdj();
     }
 
     private Picture transpose(Picture picture) {
