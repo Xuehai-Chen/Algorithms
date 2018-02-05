@@ -66,27 +66,33 @@ public class BaseballElimination {
 
     // number of wins for given team
     public int wins(String team) {
+        this.checkValid(team);
         return this.info.get(team).get(1);
     }
 
     // number of losses for given team
     public int losses(String team) {
+        this.checkValid(team);
         return this.info.get(team).get(2);
     }
 
     // number of remaining games for given team
     public int remaining(String team) {
+        this.checkValid(team);
         return this.info.get(team).get(3);
     }
 
     // number of remaining games between team1 and team2
     public int against(String team1, String team2) {
+        this.checkValid(team1);
+        this.checkValid(team2);
         int indexOfTeam2 = this.info.get(team2).get(0);
         return this.info.get(team1).get(4 + indexOfTeam2);
     }
 
     // is given team eliminated?
     public boolean isEliminated(String team) {
+        this.checkValid(team);
         int n = this.N - 1;
         for (String t : teams()) {
             if (!t.equals(team) && this.wins(t) > (wins(team) + remaining(team))) return true;
@@ -116,12 +122,13 @@ public class BaseballElimination {
 
     // subset R of teams that eliminates given team; null if not eliminated
     public Iterable<String> certificateOfElimination(String team) {
-        HashSet<String> res = new HashSet<>();
+        this.checkValid(team);
+        HashSet<String> set = new HashSet<>();
         int n = this.N - 1;
         for (String t : teams()) {
             if (!t.equals(team) && this.wins(t) > (wins(team) + remaining(team))) {
-                res.add(t);
-                return res;
+                set.add(t);
+                return set;
             }
         }
         FlowNetwork net = new FlowNetwork(n * (n - 1) / 2 + n + 2);
@@ -143,15 +150,16 @@ public class BaseballElimination {
             for (int j = i + 1; j <= n; j++) {
                 if (ff.inCut(i * n - i * (i + 1) / 2 + j)) {
                     if (cmp(team, index[i - 1])) {
-                        res.add(index[i - 1]);
+                        set.add(index[i - 1]);
                     }
                     if (cmp(team, index[j - 1])) {
-                        res.add(index[j - 1]);
+                        set.add(index[j - 1]);
                     }
                 }
             }
         }
-        return res;
+        if(set.isEmpty()) return null;
+        return set;
     }
 
     private void setFlowNet(FlowNetwork net, String team, String[] index) {
@@ -181,5 +189,9 @@ public class BaseballElimination {
 
     private boolean cmp(String team, String verti) {
         return (this.wins(team) + this.remaining(team)) < (this.wins(verti) + this.remaining(verti)) ? true : false;
+    }
+
+    private void checkValid(String team){
+        if(team==null||!this.info.containsKey(team)) throw new IllegalArgumentException();
     }
 }
