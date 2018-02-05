@@ -1,5 +1,8 @@
-import edu.princeton.cs.algs4.*;
-
+import edu.princeton.cs.algs4.StdOut;
+import edu.princeton.cs.algs4.In;
+import edu.princeton.cs.algs4.FlowEdge;
+import edu.princeton.cs.algs4.FlowNetwork;
+import edu.princeton.cs.algs4.FordFulkerson;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -85,12 +88,16 @@ public class BaseballElimination {
     public boolean isEliminated(String team) {
         int n = this.N - 1;
         for (String t : teams()) {
-            if (t != team && this.wins(t) > (wins(team) + remaining(team))) return true;
+            if (!t.equals(team) && this.wins(t) > (wins(team) + remaining(team))) return true;
         }
         FlowNetwork net = new FlowNetwork(n * (n - 1) / 2 + n + 2);
         setFlowNet(net, team);
         FordFulkerson ff = new FordFulkerson(net, n * (n + 1) / 2 + 1, 0);
-        StdOut.println(net.toString());
+        for (int i = 1; i < n; i++) {
+            for (int j = i + 1; j <=n; j++) {
+               if(ff.inCut(i * n - i * (i + 1) / 2 + j)) return true;
+            }
+        }
         return false;
     }
 
@@ -106,9 +113,14 @@ public class BaseballElimination {
         int teamTotal = wins(team) + remaining(team);
         String[] index = new String[n];
         for (String t : this.teams()) {
-            if (t != team) {
+            if (!t.equals(team)) {
                 index[count] = t;
-                count++;
+                if(count!=n-1){
+                    count++;
+                }else{
+                    break;
+                }
+
             }
         }
         for (int i = 1; i <= n; i++) {
@@ -123,7 +135,7 @@ public class BaseballElimination {
                 net.addEdge(ej);
             }
         }
-        for (int i = 1; i <= n; i++) {
+        for (int i = 1; i < n; i++) {
             for (int j = i + 1; j <= n; j++) {
                 FlowEdge e = new FlowEdge(s, i * n - i * (i + 1) / 2 + j, against(index[i - 1], index[j - 1]));
                 net.addEdge(e);
