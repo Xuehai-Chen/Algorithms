@@ -2,6 +2,8 @@ import edu.princeton.cs.algs4.Bag;
 import edu.princeton.cs.algs4.Picture;
 
 public class SeamCarver {
+    private boolean transposeFlag = false;
+    private boolean setEnergyFlag = false;
     private Picture picture;
     private double[][] energy;
 
@@ -14,22 +16,52 @@ public class SeamCarver {
 
     // current picture
     public Picture picture() {
-        return new Picture(this.picture);
+        Picture p;
+        if (this.transposeFlag) {
+            p = new Picture(this.transpose(this.picture));
+        } else {
+            p = new Picture(this.picture);
+        }
+        return p;
     }
 
     // width of current picture
     public int width() {
-        return this.picture.width();
+        int res;
+        if (this.transposeFlag) {
+            res = this.picture.height();
+        } else {
+            res = this.picture.width();
+        }
+        return res;
     }
 
     // height of current picture
     public int height() {
-        return this.picture.height();
+        int res;
+        if (this.transposeFlag) {
+            res = this.picture.width();
+        } else {
+            res = this.picture.height();
+        }
+        return res;
     }
 
     // energy of pixel at column x and row y
     public double energy(int x, int y) {
-        if (x < 0 || x > this.width() - 1 || y < 0 || y > this.height() - 1) throw new IllegalArgumentException();
+        if (setEnergyFlag) {
+            if (transposeFlag) {
+                this.picture = this.transpose(this.picture);
+                this.transposeFlag = false;
+            }
+            this.energy = this.setEnergy(this.picture);
+            this.setEnergyFlag = false;
+        }
+        if (this.transposeFlag) {
+            checkEnergyInputValid(y, x);
+        } else {
+            checkEnergyInputValid(x, y);
+        }
         return this.energy[x][y];
     }
 
@@ -59,9 +91,9 @@ public class SeamCarver {
     }
 
     private double[][] setDistTo(double[][] energy) {
-        double[][] distTo = new double[this.width()][this.height()];
-        for (int i = 0; i < this.width(); i++) {
-            for (int j = 0; j < this.height(); j++) {
+        double[][] distTo = new double[this.picture.width()][this.picture.height()];
+        for (int i = 0; i < this.picture.width(); i++) {
+            for (int j = 0; j < this.picture.height(); j++) {
                 if (j == 0) {
                     distTo[i][j] = energy[i][0];
                 } else {
@@ -73,21 +105,21 @@ public class SeamCarver {
     }
 
     private Bag<Integer>[][] setAdj() {
-        Bag<Integer>[][] adj = (Bag<Integer>[][]) new Bag[this.width()][this.height()];
-        for (int i = 0; i < this.width(); i++) {
-            for (int j = 0; j < this.height(); j++) {
+        Bag<Integer>[][] adj = new Bag[this.picture.width()][this.picture.height()];
+        for (int i = 0; i < this.picture.width(); i++) {
+            for (int j = 0; j < this.picture.height(); j++) {
                 adj[i][j] = new Bag();
                 if (j > 0) {
                     if (i == 0) {
-                        adj[i][j].add((j - 1) * this.width() + i);
-                        adj[i][j].add((j - 1) * this.width() + i + 1);
-                    } else if (i == this.width() - 1) {
-                        adj[i][j].add((j - 1) * this.width() + i - 1);
-                        adj[i][j].add((j - 1) * this.width() + i);
+                        adj[i][j].add((j - 1) * this.picture.width() + i);
+                        adj[i][j].add((j - 1) * this.picture.width() + i + 1);
+                    } else if (i == this.picture.width() - 1) {
+                        adj[i][j].add((j - 1) * this.picture.width() + i - 1);
+                        adj[i][j].add((j - 1) * this.picture.width() + i);
                     } else {
-                        adj[i][j].add((j - 1) * this.width() + i - 1);
-                        adj[i][j].add((j - 1) * this.width() + i);
-                        adj[i][j].add((j - 1) * this.width() + i + 1);
+                        adj[i][j].add((j - 1) * this.picture.width() + i - 1);
+                        adj[i][j].add((j - 1) * this.picture.width() + i);
+                        adj[i][j].add((j - 1) * this.picture.width() + i + 1);
                     }
                 }
             }
@@ -97,41 +129,50 @@ public class SeamCarver {
 
     // sequence of indices for horizontal seam
     public int[] findHorizontalSeam() {
-        SeamCarver sc = new SeamCarver(this.transpose(this.picture));
-        int[] res = sc.findVerticalSeam();
-        this.picture = sc.transpose(sc.picture);
-        return res;
+        if (!this.transposeFlag) {
+            this.picture = this.transpose(this.picture);
+            this.transposeFlag = true;
+        }
+        return findSeam();
     }
 
     // sequence of indices for vertical seam
     public int[] findVerticalSeam() {
-        int[] res = new int[this.height()];
+        if (this.transposeFlag) {
+            this.picture = this.transpose(this.picture);
+            this.transposeFlag = false;
+        }
+        return findSeam();
+    }
+
+    private int[] findSeam() {
+        int[] res = new int[this.picture.height()];
         double[][] energy = this.setEnergy(this.picture);
         Bag<Integer>[][] Adj = this.setAdj();
         double[][] distTo = setDistTo(energy);
-        int[][] pathTo = new int[this.width()][this.height()];
-        for (int i = this.width(); i < this.height() * this.width(); i++) {
-            for (int adj : Adj[i % this.width()][i / this.width()]) {
+        int[][] pathTo = new int[this.picture.width()][this.picture.height()];
+        for (int i = this.picture.width(); i < this.picture.height() * this.picture.width(); i++) {
+            for (int adj : Adj[i % this.picture.width()][i / this.picture.width()]) {
                 relax(adj, i, energy, distTo, pathTo);
             }
         }
-        res[this.height() - 1] = this.width() - 1;
-        for (int i = 0; i < this.width(); i++) {
-            if (distTo[i][this.height() - 1] < distTo[res[this.height() - 1]][this.height() - 1]) {
-                res[this.height() - 1] = i;
+        res[this.picture.height() - 1] = this.picture.width() - 1;
+        for (int i = 0; i < this.picture.width(); i++) {
+            if (distTo[i][this.picture.height() - 1] < distTo[res[this.picture.height() - 1]][this.picture.height() - 1]) {
+                res[this.picture.height() - 1] = i;
             }
         }
-        for (int i = this.height() - 2; i >= 0; i--) {
-            res[i] = pathTo[res[i + 1]][i + 1] % this.width();
+        for (int i = this.picture.height() - 2; i >= 0; i--) {
+            res[i] = pathTo[res[i + 1]][i + 1] % this.picture.width();
         }
         return res;
     }
 
     private void relax(int s, int t, double[][] energy, double[][] distTo, int[][] pathTo) {
-        int sx = s % this.width();
-        int sy = s / this.width();
-        int tx = t % this.width();
-        int ty = t / this.width();
+        int sx = s % this.picture.width();
+        int sy = s / this.picture.width();
+        int tx = t % this.picture.width();
+        int ty = t / this.picture.width();
         double weight = energy[tx][ty];
         if (distTo[tx][ty] > distTo[sx][sy] + weight) {
             distTo[tx][ty] = distTo[sx][sy] + weight;
@@ -141,18 +182,29 @@ public class SeamCarver {
 
     // remove horizontal seam from current picture
     public void removeHorizontalSeam(int[] seam) {
-        SeamCarver sc = new SeamCarver(this.transpose(this.picture));
-        sc.removeVerticalSeam(seam);
-        this.picture = sc.transpose(sc.picture);
-        this.energy = this.setEnergy(this.picture);
+        if (!this.transposeFlag) {
+            this.picture = this.transpose(this.picture);
+            this.transposeFlag = true;
+        }
+        this.picture = removeSeam(seam);
+        this.setEnergyFlag = true;
     }
 
     // remove vertical seam from current picture
     public void removeVerticalSeam(int[] seam) {
-        this.checkValidSeam(seam, this.width(), this.height());
-        Picture p = new Picture(this.width() - 1, this.height());
-        for (int j = 0; j < this.height(); j++) {
-            for (int i = 0; i < this.width() - 1; i++) {
+        if (this.transposeFlag) {
+            this.picture = this.transpose(this.picture);
+            this.transposeFlag = false;
+        }
+        this.picture = removeSeam(seam);
+        this.setEnergyFlag = true;
+    }
+
+    private Picture removeSeam(int[] seam) {
+        checkValidSeam(seam, this.picture.width(), this.picture.height());
+        Picture p = new Picture(this.picture.width() - 1, this.picture.height());
+        for (int j = 0; j < this.picture.height(); j++) {
+            for (int i = 0; i < this.picture.width() - 1; i++) {
                 if (i < seam[j]) {
                     p.setRGB(i, j, this.picture.getRGB(i, j));
                 } else {
@@ -160,8 +212,7 @@ public class SeamCarver {
                 }
             }
         }
-        this.picture = p;
-        this.energy = this.setEnergy(this.picture);
+        return p;
     }
 
     private Picture transpose(Picture picture) {
@@ -182,6 +233,11 @@ public class SeamCarver {
             if (seam[i] < 0 || seam[i] > (index - 1)) throw new IllegalArgumentException();
             if (i > 0 && Math.abs(seam[i] - seam[i - 1]) > 1) throw new IllegalArgumentException();
         }
+    }
+
+    private void checkEnergyInputValid(int x, int y) {
+        if (x < 0 || x > this.picture.width() - 1 || y < 0 || y > this.picture.height() - 1)
+            throw new IllegalArgumentException();
     }
 
 }
