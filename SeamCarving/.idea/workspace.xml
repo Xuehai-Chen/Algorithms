@@ -2,93 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e790f15b-efe1-4710-8f8a-4085d67e5b5d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../51StringSorts.pdf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/readme.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams1.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams10.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams12-allgames.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams12.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams24.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams29.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams30.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams32.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams36.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams4.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams42.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams48.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams4a.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams4b.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams5.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams50.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams54.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams5a.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams5b.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams5c.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams60.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams7.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams8.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/Boggle.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/BoggleSolver.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/BoggleBoard.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/BoggleGame.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board-16q.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board-antidisestablishmentarianisms.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board-aqua.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board-couscous.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board-diagonal.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board-dichlorodiphenyltrichloroethanes.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board-dodo.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board-estrangers.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board-horizontal.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board-inconsequentially.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board-noon.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board-pneumonoultramicroscopicsilicovolcanoconiosis.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board-points0.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board-points1.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board-points100.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board-points1000.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board-points1111.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board-points1250.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board-points13464.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board-points1500.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board-points2.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board-points200.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board-points2000.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board-points26539.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board-points3.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board-points300.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board-points4.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board-points400.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board-points4410.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board-points4527.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board-points4540.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board-points5.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board-points500.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board-points750.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board-points777.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board-q.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board-quinquevalencies.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board-qwerty.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board-rotavator.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board-vertical.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/board4x4.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/dictionary-16q.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/dictionary-2letters.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/dictionary-algs4.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/dictionary-common.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/dictionary-enable2k.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/dictionary-nursery.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/dictionary-shakespeare.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/dictionary-sowpods.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/dictionary-twl06.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/dictionary-yawl.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/src/boggle/dictionary-zingarelli2005.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../52Tries.pdf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../53SubstringSearch.pdf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/.idea/libraries/algs4.xml" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Boggle/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/Boggle.iml" afterPath="$PROJECT_DIR$/../Boggle/Boggle.iml" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/BoggleSolver.java" afterPath="$PROJECT_DIR$/../Boggle/src/BoggleSolver.java" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/BoggleBoard.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/BoggleGame.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-16q.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-antidisestablishmentarianisms.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-aqua.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-couscous.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-diagonal.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-dichlorodiphenyltrichloroethanes.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-dodo.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-estrangers.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-horizontal.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-inconsequentially.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-noon.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-pneumonoultramicroscopicsilicovolcanoconiosis.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points0.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points1.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points100.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points1000.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points1111.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points1250.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points13464.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points1500.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points2.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points200.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points2000.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points26539.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points3.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points300.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points4.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points400.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points4410.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points4527.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points4540.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points5.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points500.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points750.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points777.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-q.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-quinquevalencies.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-qwerty.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-rotavator.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-vertical.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board4x4.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/dictionary-16q.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/dictionary-2letters.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/dictionary-algs4.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/dictionary-common.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/dictionary-enable2k.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/dictionary-nursery.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/dictionary-shakespeare.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/dictionary-sowpods.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/dictionary-twl06.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/dictionary-yawl.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/dictionary-zingarelli2005.txt" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/SeamCarver.java" afterPath="$PROJECT_DIR$/src/SeamCarver.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -103,9 +78,11 @@
       <file leaf-file-name="SeamCarver.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SeamCarver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="226" column="19" lean-forward="true" selection-start-line="226" selection-start-column="19" selection-end-line="226" selection-end-column="19" />
-              <folding />
+            <state relative-caret-position="15">
+              <caret line="108" column="38" lean-forward="false" selection-start-line="108" selection-start-column="38" selection-end-line="108" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -120,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrintSeams.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PrintSeams.java">
+      <file leaf-file-name="AcyclicSP.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../algs4.jar!/edu/princeton/cs/algs4/AcyclicSP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="51" column="16" lean-forward="false" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+            <state relative-caret-position="945">
+              <caret line="81" column="4" lean-forward="false" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -132,63 +109,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Picture.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../algs4.jar!/edu/princeton/cs/algs4/Picture.java">
+      <file leaf-file-name="DijkstraSP.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../algs4.jar!/edu/princeton/cs/algs4/DijkstraSP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="312" column="48" lean-forward="false" selection-start-line="312" selection-start-column="48" selection-end-line="312" selection-end-column="48" />
+            <state relative-caret-position="2640">
+              <caret line="205" column="73" lean-forward="false" selection-start-line="205" selection-start-column="72" selection-end-line="205" selection-end-column="73" />
               <folding>
-                <element signature="docComment;class#Picture#0" expanded="false" />
-                <element signature="docComment;method#Picture#0;class#Picture#0" expanded="false" />
-                <element signature="method#Picture#0;class#Picture#0" expanded="false" />
-                <element signature="docComment;method#Picture#1;class#Picture#0" expanded="false" />
-                <element signature="method#Picture#1;class#Picture#0" expanded="false" />
-                <element signature="docComment;method#Picture#2;class#Picture#0" expanded="false" />
-                <element signature="method#Picture#2;class#Picture#0" expanded="false" />
-                <element signature="docComment;method#Picture#3;class#Picture#0" expanded="false" />
-                <element signature="method#Picture#3;class#Picture#0" expanded="false" />
-                <element signature="docComment;method#getJLabel#0;class#Picture#0" expanded="false" />
-                <element signature="method#getJLabel#0;class#Picture#0" expanded="false" />
-                <element signature="docComment;method#setOriginUpperLeft#0;class#Picture#0" expanded="false" />
-                <element signature="docComment;method#setOriginLowerLeft#0;class#Picture#0" expanded="false" />
-                <element signature="docComment;method#show#0;class#Picture#0" expanded="false" />
-                <element signature="method#show#0;class#Picture#0" expanded="false" />
-                <element signature="docComment;method#height#0;class#Picture#0" expanded="false" />
-                <element signature="docComment;method#width#0;class#Picture#0" expanded="false" />
-                <element signature="method#validateRowIndex#0;class#Picture#0" expanded="false" />
-                <element signature="method#validateColumnIndex#0;class#Picture#0" expanded="false" />
-                <element signature="docComment;method#get#0;class#Picture#0" expanded="false" />
-                <element signature="method#get#0;class#Picture#0" expanded="false" />
-                <element signature="docComment;method#getRGB#0;class#Picture#0" expanded="false" />
-                <element signature="docComment;method#set#0;class#Picture#0" expanded="false" />
-                <element signature="method#set#0;class#Picture#0" expanded="false" />
-                <element signature="docComment;method#setRGB#0;class#Picture#0" expanded="false" />
-                <element signature="method#setRGB#0;class#Picture#0" expanded="false" />
-                <element signature="docComment;method#equals#0;class#Picture#0" expanded="false" />
-                <element signature="method#equals#0;class#Picture#0" expanded="false" />
-                <element signature="docComment;method#toString#0;class#Picture#0" expanded="false" />
-                <element signature="method#toString#0;class#Picture#0" expanded="false" />
-                <element signature="docComment;method#hashCode#0;class#Picture#0" expanded="false" />
-                <element signature="method#hashCode#0;class#Picture#0" expanded="false" />
-                <element signature="docComment;method#save#0;class#Picture#0" expanded="false" />
-                <element signature="method#save#0;class#Picture#0" expanded="false" />
-                <element signature="docComment;method#save#1;class#Picture#0" expanded="false" />
-                <element signature="method#save#1;class#Picture#0" expanded="false" />
-                <element signature="docComment;method#actionPerformed#0;class#Picture#0" expanded="false" />
-                <element signature="method#actionPerformed#0;class#Picture#0" expanded="false" />
-                <element signature="docComment;method#main#0;class#Picture#0" expanded="false" />
-                <element signature="method#main#0;class#Picture#0" expanded="false" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SCUtility.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SCUtility.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -273,6 +201,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
@@ -301,7 +230,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -312,7 +240,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="runnable&#9;PSI&#9;JAVA://java.lang.Runnable&#10;dij&#9;PSI&#9;JAVA://edu.princeton.cs.algs4.DijkstraSP&#10;acy&#9;PSI&#9;JAVA://edu.princeton.cs.algs4.AcyclicSP&#10;edgewei&#9;PSI&#9;JAVA://edu.princeton.cs.algs4.EdgeWeightedDigraph" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;jar:///Users/chenxuehai/Documents/GitHub/algs4.jar!/edu/princeton/cs/algs4/DijkstraSP.java&#10;runnable&#9;PSI&#9;JAVA://java.lang.Runnable&#10;dij&#9;PSI&#9;JAVA://edu.princeton.cs.algs4.DijkstraSP&#10;acy&#9;PSI&#9;JAVA://edu.princeton.cs.algs4.AcyclicSP&#10;edgewei&#9;PSI&#9;JAVA://edu.princeton.cs.algs4.EdgeWeightedDigraph" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -540,7 +468,11 @@
       <workItem from="1517929248935" duration="177000" />
       <workItem from="1517969488864" duration="7680000" />
       <workItem from="1518007956676" duration="3910000" />
-      <workItem from="1518059379360" duration="3653000" />
+      <workItem from="1518059379360" duration="3774000" />
+      <workItem from="1518076549843" duration="2492000" />
+      <workItem from="1518096001403" duration="610000" />
+      <workItem from="1518175204213" duration="804000" />
+      <workItem from="1518181231000" duration="148000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1516289377737</created>
@@ -612,28 +544,44 @@
       <option name="project" value="LOCAL" />
       <updated>1518076275633</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add some test case file">
+      <created>1518076370462</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1518076370462</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93208000" />
+    <option name="totallyTimeSpent" value="97383000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30108827" sideWeight="0.50572246" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25272068" sideWeight="0.49427754" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25272068" sideWeight="0.49427754" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30108827" sideWeight="0.49427754" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30229747" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26180258" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2761087" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -664,24 +612,11 @@
     <MESSAGE value="correctness are all set" />
     <MESSAGE value="correctness and timing are all set" />
     <MESSAGE value="got a higher score" />
-    <option name="LAST_COMMIT_MESSAGE" value="got a higher score" />
+    <MESSAGE value="add some test case file" />
+    <option name="LAST_COMMIT_MESSAGE" value="add some test case file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../algs4.jar!/edu/princeton/cs/algs4/DijkstraSP.java</url>
-          <line>88</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../algs4.jar!/edu/princeton/cs/algs4/DijkstraSP.java</url>
-          <line>98</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="31" />
     </breakpoint-manager>
     <watches-manager>
@@ -712,7 +647,7 @@
         <state relative-caret-position="3285">
           <caret line="219" column="0" lean-forward="false" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="false" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -747,48 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1890">
           <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#Picture#0;class#Picture#0" expanded="false" />
-            <element signature="method#Picture#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#Picture#1;class#Picture#0" expanded="false" />
-            <element signature="method#Picture#1;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#Picture#2;class#Picture#0" expanded="false" />
-            <element signature="method#Picture#2;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#Picture#3;class#Picture#0" expanded="false" />
-            <element signature="method#Picture#3;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#getJLabel#0;class#Picture#0" expanded="false" />
-            <element signature="method#getJLabel#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#setOriginUpperLeft#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#setOriginLowerLeft#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#show#0;class#Picture#0" expanded="false" />
-            <element signature="method#show#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#height#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#width#0;class#Picture#0" expanded="false" />
-            <element signature="method#validateRowIndex#0;class#Picture#0" expanded="false" />
-            <element signature="method#validateColumnIndex#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#get#0;class#Picture#0" expanded="false" />
-            <element signature="method#get#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#getRGB#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#set#0;class#Picture#0" expanded="false" />
-            <element signature="method#set#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#setRGB#0;class#Picture#0" expanded="false" />
-            <element signature="method#setRGB#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#equals#0;class#Picture#0" expanded="false" />
-            <element signature="method#equals#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#toString#0;class#Picture#0" expanded="false" />
-            <element signature="method#toString#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#hashCode#0;class#Picture#0" expanded="false" />
-            <element signature="method#hashCode#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#save#0;class#Picture#0" expanded="false" />
-            <element signature="method#save#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#save#1;class#Picture#0" expanded="false" />
-            <element signature="method#save#1;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#actionPerformed#0;class#Picture#0" expanded="false" />
-            <element signature="method#actionPerformed#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#main#0;class#Picture#0" expanded="false" />
-            <element signature="method#main#0;class#Picture#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -803,7 +696,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -844,48 +739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1890">
           <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#Picture#0;class#Picture#0" expanded="false" />
-            <element signature="method#Picture#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#Picture#1;class#Picture#0" expanded="false" />
-            <element signature="method#Picture#1;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#Picture#2;class#Picture#0" expanded="false" />
-            <element signature="method#Picture#2;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#Picture#3;class#Picture#0" expanded="false" />
-            <element signature="method#Picture#3;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#getJLabel#0;class#Picture#0" expanded="false" />
-            <element signature="method#getJLabel#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#setOriginUpperLeft#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#setOriginLowerLeft#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#show#0;class#Picture#0" expanded="false" />
-            <element signature="method#show#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#height#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#width#0;class#Picture#0" expanded="false" />
-            <element signature="method#validateRowIndex#0;class#Picture#0" expanded="false" />
-            <element signature="method#validateColumnIndex#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#get#0;class#Picture#0" expanded="false" />
-            <element signature="method#get#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#getRGB#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#set#0;class#Picture#0" expanded="false" />
-            <element signature="method#set#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#setRGB#0;class#Picture#0" expanded="false" />
-            <element signature="method#setRGB#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#equals#0;class#Picture#0" expanded="false" />
-            <element signature="method#equals#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#toString#0;class#Picture#0" expanded="false" />
-            <element signature="method#toString#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#hashCode#0;class#Picture#0" expanded="false" />
-            <element signature="method#hashCode#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#save#0;class#Picture#0" expanded="false" />
-            <element signature="method#save#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#save#1;class#Picture#0" expanded="false" />
-            <element signature="method#save#1;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#actionPerformed#0;class#Picture#0" expanded="false" />
-            <element signature="method#actionPerformed#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#main#0;class#Picture#0" expanded="false" />
-            <element signature="method#main#0;class#Picture#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -893,7 +746,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -934,48 +789,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1890">
           <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#Picture#0;class#Picture#0" expanded="false" />
-            <element signature="method#Picture#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#Picture#1;class#Picture#0" expanded="false" />
-            <element signature="method#Picture#1;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#Picture#2;class#Picture#0" expanded="false" />
-            <element signature="method#Picture#2;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#Picture#3;class#Picture#0" expanded="false" />
-            <element signature="method#Picture#3;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#getJLabel#0;class#Picture#0" expanded="false" />
-            <element signature="method#getJLabel#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#setOriginUpperLeft#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#setOriginLowerLeft#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#show#0;class#Picture#0" expanded="false" />
-            <element signature="method#show#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#height#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#width#0;class#Picture#0" expanded="false" />
-            <element signature="method#validateRowIndex#0;class#Picture#0" expanded="false" />
-            <element signature="method#validateColumnIndex#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#get#0;class#Picture#0" expanded="false" />
-            <element signature="method#get#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#getRGB#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#set#0;class#Picture#0" expanded="false" />
-            <element signature="method#set#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#setRGB#0;class#Picture#0" expanded="false" />
-            <element signature="method#setRGB#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#equals#0;class#Picture#0" expanded="false" />
-            <element signature="method#equals#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#toString#0;class#Picture#0" expanded="false" />
-            <element signature="method#toString#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#hashCode#0;class#Picture#0" expanded="false" />
-            <element signature="method#hashCode#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#save#0;class#Picture#0" expanded="false" />
-            <element signature="method#save#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#save#1;class#Picture#0" expanded="false" />
-            <element signature="method#save#1;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#actionPerformed#0;class#Picture#0" expanded="false" />
-            <element signature="method#actionPerformed#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#main#0;class#Picture#0" expanded="false" />
-            <element signature="method#main#0;class#Picture#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -983,7 +796,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1017,48 +832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1890">
           <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#Picture#0;class#Picture#0" expanded="false" />
-            <element signature="method#Picture#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#Picture#1;class#Picture#0" expanded="false" />
-            <element signature="method#Picture#1;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#Picture#2;class#Picture#0" expanded="false" />
-            <element signature="method#Picture#2;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#Picture#3;class#Picture#0" expanded="false" />
-            <element signature="method#Picture#3;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#getJLabel#0;class#Picture#0" expanded="false" />
-            <element signature="method#getJLabel#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#setOriginUpperLeft#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#setOriginLowerLeft#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#show#0;class#Picture#0" expanded="false" />
-            <element signature="method#show#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#height#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#width#0;class#Picture#0" expanded="false" />
-            <element signature="method#validateRowIndex#0;class#Picture#0" expanded="false" />
-            <element signature="method#validateColumnIndex#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#get#0;class#Picture#0" expanded="false" />
-            <element signature="method#get#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#getRGB#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#set#0;class#Picture#0" expanded="false" />
-            <element signature="method#set#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#setRGB#0;class#Picture#0" expanded="false" />
-            <element signature="method#setRGB#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#equals#0;class#Picture#0" expanded="false" />
-            <element signature="method#equals#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#toString#0;class#Picture#0" expanded="false" />
-            <element signature="method#toString#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#hashCode#0;class#Picture#0" expanded="false" />
-            <element signature="method#hashCode#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#save#0;class#Picture#0" expanded="false" />
-            <element signature="method#save#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#save#1;class#Picture#0" expanded="false" />
-            <element signature="method#save#1;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#actionPerformed#0;class#Picture#0" expanded="false" />
-            <element signature="method#actionPerformed#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#main#0;class#Picture#0" expanded="false" />
-            <element signature="method#main#0;class#Picture#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1066,7 +839,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1093,48 +868,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2430">
           <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#Picture#0;class#Picture#0" expanded="false" />
-            <element signature="method#Picture#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#Picture#1;class#Picture#0" expanded="false" />
-            <element signature="method#Picture#1;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#Picture#2;class#Picture#0" expanded="false" />
-            <element signature="method#Picture#2;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#Picture#3;class#Picture#0" expanded="false" />
-            <element signature="method#Picture#3;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#getJLabel#0;class#Picture#0" expanded="false" />
-            <element signature="method#getJLabel#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#setOriginUpperLeft#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#setOriginLowerLeft#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#show#0;class#Picture#0" expanded="false" />
-            <element signature="method#show#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#height#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#width#0;class#Picture#0" expanded="false" />
-            <element signature="method#validateRowIndex#0;class#Picture#0" expanded="false" />
-            <element signature="method#validateColumnIndex#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#get#0;class#Picture#0" expanded="false" />
-            <element signature="method#get#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#getRGB#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#set#0;class#Picture#0" expanded="false" />
-            <element signature="method#set#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#setRGB#0;class#Picture#0" expanded="false" />
-            <element signature="method#setRGB#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#equals#0;class#Picture#0" expanded="false" />
-            <element signature="method#equals#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#toString#0;class#Picture#0" expanded="false" />
-            <element signature="method#toString#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#hashCode#0;class#Picture#0" expanded="false" />
-            <element signature="method#hashCode#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#save#0;class#Picture#0" expanded="false" />
-            <element signature="method#save#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#save#1;class#Picture#0" expanded="false" />
-            <element signature="method#save#1;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#actionPerformed#0;class#Picture#0" expanded="false" />
-            <element signature="method#actionPerformed#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#main#0;class#Picture#0" expanded="false" />
-            <element signature="method#main#0;class#Picture#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1142,7 +875,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1169,48 +904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2430">
           <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#Picture#0;class#Picture#0" expanded="false" />
-            <element signature="method#Picture#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#Picture#1;class#Picture#0" expanded="false" />
-            <element signature="method#Picture#1;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#Picture#2;class#Picture#0" expanded="false" />
-            <element signature="method#Picture#2;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#Picture#3;class#Picture#0" expanded="false" />
-            <element signature="method#Picture#3;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#getJLabel#0;class#Picture#0" expanded="false" />
-            <element signature="method#getJLabel#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#setOriginUpperLeft#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#setOriginLowerLeft#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#show#0;class#Picture#0" expanded="false" />
-            <element signature="method#show#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#height#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#width#0;class#Picture#0" expanded="false" />
-            <element signature="method#validateRowIndex#0;class#Picture#0" expanded="false" />
-            <element signature="method#validateColumnIndex#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#get#0;class#Picture#0" expanded="false" />
-            <element signature="method#get#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#getRGB#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#set#0;class#Picture#0" expanded="false" />
-            <element signature="method#set#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#setRGB#0;class#Picture#0" expanded="false" />
-            <element signature="method#setRGB#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#equals#0;class#Picture#0" expanded="false" />
-            <element signature="method#equals#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#toString#0;class#Picture#0" expanded="false" />
-            <element signature="method#toString#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#hashCode#0;class#Picture#0" expanded="false" />
-            <element signature="method#hashCode#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#save#0;class#Picture#0" expanded="false" />
-            <element signature="method#save#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#save#1;class#Picture#0" expanded="false" />
-            <element signature="method#save#1;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#actionPerformed#0;class#Picture#0" expanded="false" />
-            <element signature="method#actionPerformed#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#main#0;class#Picture#0" expanded="false" />
-            <element signature="method#main#0;class#Picture#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1218,7 +911,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1265,35 +960,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../algs4.jar!/edu/princeton/cs/algs4/DijkstraSP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3285">
-          <caret line="219" column="0" lean-forward="false" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ShowEnergy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../algs4.jar!/edu/princeton/cs/algs4/EdgeWeightedDigraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="42" column="16" lean-forward="false" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../algs4.jar!/edu/princeton/cs/algs4/AcyclicSP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="70" column="19" lean-forward="false" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1325,18 +996,35 @@
     <entry file="file://$PROJECT_DIR$/src/PrintSeams.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="51" column="16" lean-forward="false" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SeamCarver.java">
+    <entry file="file://$PROJECT_DIR$/src/SCUtility.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="226" column="19" lean-forward="true" selection-start-line="226" selection-start-column="19" selection-end-line="226" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="105">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../algs4.jar!/edu/princeton/cs/algs4/EdgeWeightedDigraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3190">
+          <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../algs4.jar!/edu/princeton/cs/algs4/Picture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="263" column="0" lean-forward="true" selection-start-line="263" selection-start-column="0" selection-end-line="263" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1348,60 +1036,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../algs4.jar!/edu/princeton/cs/algs4/Picture.java">
+    <entry file="jar://$PROJECT_DIR$/../../algs4.jar!/edu/princeton/cs/algs4/DijkstraSP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="312" column="48" lean-forward="false" selection-start-line="312" selection-start-column="48" selection-end-line="312" selection-end-column="48" />
+        <state relative-caret-position="2640">
+          <caret line="205" column="73" lean-forward="false" selection-start-line="205" selection-start-column="72" selection-end-line="205" selection-end-column="73" />
           <folding>
-            <element signature="docComment;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#Picture#0;class#Picture#0" expanded="false" />
-            <element signature="method#Picture#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#Picture#1;class#Picture#0" expanded="false" />
-            <element signature="method#Picture#1;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#Picture#2;class#Picture#0" expanded="false" />
-            <element signature="method#Picture#2;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#Picture#3;class#Picture#0" expanded="false" />
-            <element signature="method#Picture#3;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#getJLabel#0;class#Picture#0" expanded="false" />
-            <element signature="method#getJLabel#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#setOriginUpperLeft#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#setOriginLowerLeft#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#show#0;class#Picture#0" expanded="false" />
-            <element signature="method#show#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#height#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#width#0;class#Picture#0" expanded="false" />
-            <element signature="method#validateRowIndex#0;class#Picture#0" expanded="false" />
-            <element signature="method#validateColumnIndex#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#get#0;class#Picture#0" expanded="false" />
-            <element signature="method#get#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#getRGB#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#set#0;class#Picture#0" expanded="false" />
-            <element signature="method#set#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#setRGB#0;class#Picture#0" expanded="false" />
-            <element signature="method#setRGB#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#equals#0;class#Picture#0" expanded="false" />
-            <element signature="method#equals#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#toString#0;class#Picture#0" expanded="false" />
-            <element signature="method#toString#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#hashCode#0;class#Picture#0" expanded="false" />
-            <element signature="method#hashCode#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#save#0;class#Picture#0" expanded="false" />
-            <element signature="method#save#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#save#1;class#Picture#0" expanded="false" />
-            <element signature="method#save#1;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#actionPerformed#0;class#Picture#0" expanded="false" />
-            <element signature="method#actionPerformed#0;class#Picture#0" expanded="false" />
-            <element signature="docComment;method#main#0;class#Picture#0" expanded="false" />
-            <element signature="method#main#0;class#Picture#0" expanded="false" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SCUtility.java">
+    <entry file="jar://$PROJECT_DIR$/../../algs4.jar!/edu/princeton/cs/algs4/AcyclicSP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="945">
+          <caret line="81" column="4" lean-forward="false" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SeamCarver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="108" column="38" lean-forward="false" selection-start-line="108" selection-start-column="38" selection-end-line="108" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

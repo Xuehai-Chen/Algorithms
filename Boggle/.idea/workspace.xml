@@ -2,34 +2,120 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99bbd540-a029-4713-8756-85a98259f750" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../51StringSorts.pdf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/readme.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams1.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams10.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams12-allgames.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams12.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams24.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams29.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams30.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams32.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams36.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams4.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams42.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams48.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams4a.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams4b.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams5.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams50.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams54.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams5a.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams5b.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams5c.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams60.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams7.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BaseballElimination/out/production/BaseballElimination/baseball/teams8.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/BoggleSolver.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../52Tries.pdf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../53SubstringSearch.pdf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/algs4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/BoggleBoard.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/BoggleGame.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board-16q.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board-antidisestablishmentarianisms.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board-aqua.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board-couscous.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board-diagonal.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board-dichlorodiphenyltrichloroethanes.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board-dodo.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board-estrangers.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board-horizontal.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board-inconsequentially.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board-noon.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board-pneumonoultramicroscopicsilicovolcanoconiosis.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board-points0.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board-points1.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board-points100.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board-points1000.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board-points1111.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board-points1250.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board-points13464.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board-points1500.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board-points2.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board-points200.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board-points2000.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board-points26539.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board-points3.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board-points300.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board-points4.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board-points400.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board-points4410.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board-points4527.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board-points4540.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board-points5.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board-points500.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board-points750.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board-points777.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board-q.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board-quinquevalencies.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board-qwerty.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board-rotavator.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board-vertical.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/board4x4.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/dictionary-16q.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/dictionary-2letters.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/dictionary-algs4.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/dictionary-common.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/dictionary-enable2k.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/dictionary-nursery.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/dictionary-shakespeare.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/dictionary-sowpods.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/dictionary-twl06.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/dictionary-yawl.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/dictionary-zingarelli2005.txt" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Boggle.iml" afterPath="$PROJECT_DIR$/Boggle.iml" />
+      <change beforePath="$PROJECT_DIR$/src/BoggleSolver.java" afterPath="$PROJECT_DIR$/src/BoggleSolver.java" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/BoggleBoard.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/BoggleGame.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board-16q.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board-antidisestablishmentarianisms.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board-aqua.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board-couscous.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board-diagonal.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board-dichlorodiphenyltrichloroethanes.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board-dodo.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board-estrangers.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board-horizontal.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board-inconsequentially.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board-noon.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board-pneumonoultramicroscopicsilicovolcanoconiosis.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board-points0.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board-points1.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board-points100.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board-points1000.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board-points1111.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board-points1250.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board-points13464.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board-points1500.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board-points2.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board-points200.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board-points2000.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board-points26539.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board-points3.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board-points300.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board-points4.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board-points400.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board-points4410.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board-points4527.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board-points4540.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board-points5.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board-points500.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board-points750.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board-points777.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board-q.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board-quinquevalencies.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board-qwerty.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board-rotavator.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board-vertical.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/board4x4.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/dictionary-16q.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/dictionary-2letters.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/dictionary-algs4.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/dictionary-common.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/dictionary-enable2k.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/dictionary-nursery.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/dictionary-shakespeare.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/dictionary-sowpods.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/dictionary-twl06.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/dictionary-yawl.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/boggle/dictionary-zingarelli2005.txt" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../SeamCarving/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../SeamCarving/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/../SeamCarving/src/SeamCarver.java" afterPath="$PROJECT_DIR$/../SeamCarving/src/SeamCarver.java" />
     </list>
@@ -42,13 +128,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="BoggleSolver.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BoggleSolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="330">
+              <caret line="22" column="57" lean-forward="false" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,6 +178,13 @@
       </map>
     </option>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/BoggleSolver.java" />
+      </list>
+    </option>
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
@@ -118,9 +213,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -136,24 +230,24 @@
             </path>
             <path>
               <item name="Boggle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Boggle" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="boggle" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="EdgeWeightedGraph&#9;FILE&#9;jar:///Users/chenxuehai/Documents/GitHub/algs4.jar!/edu/princeton/cs/algs4/EdgeWeightedGraph.java&#10;ASP&#9;FILE&#9;jar:///Users/chenxuehai/Documents/GitHub/algs4.jar!/edu/princeton/cs/algs4/AcyclicSP.java&#10;digraph&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/javax/imageio/spi/DigraphNode.java&#10;tries&#9;FILE&#9;jar:///Users/chenxuehai/Documents/GitHub/algs4.jar!/edu/princeton/cs/algs4/TrieST.java" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -178,6 +272,20 @@
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="BoggleSolver" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/src" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Boggle" />
+      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -268,41 +376,44 @@
       <option name="presentableId" value="Default" />
       <updated>1518060728601</updated>
       <workItem from="1518060730611" duration="367000" />
+      <workItem from="1518174305465" duration="1374000" />
+      <workItem from="1518197654375" duration="990000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="367000" />
+    <option name="totallyTimeSpent" value="2731000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25679544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,16 +431,147 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../algs4.jar!/edu/princeton/cs/algs4/TrieSET.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="50" column="6" lean-forward="false" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../algs4.jar!/edu/princeton/cs/algs4/TrieST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1245">
+          <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../algs4.jar!/edu/princeton/cs/algs4/EdgeWeightedGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="68" column="38" lean-forward="false" selection-start-line="68" selection-start-column="38" selection-end-line="68" selection-end-column="38" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BoggleSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/javax/imageio/spi/DigraphNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../algs4.jar!/edu/princeton/cs/algs4/AcyclicSP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-289">
+          <caret line="27" column="49" lean-forward="false" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="49" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../algs4.jar!/edu/princeton/cs/algs4/EdgeWeightedGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="68" column="38" lean-forward="false" selection-start-line="68" selection-start-column="38" selection-end-line="68" selection-end-column="38" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../algs4.jar!/edu/princeton/cs/algs4/TrieST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../algs4.jar!/edu/princeton/cs/algs4/TrieSET.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="50" column="6" lean-forward="false" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/boggle/BoggleGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="126" column="12" lean-forward="false" selection-start-line="126" selection-start-column="12" selection-end-line="126" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BoggleSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="57" lean-forward="false" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>algs4</last-edited>
+          <last-edited>groovy-2.4.10</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -351,6 +593,19 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Boggle</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
@@ -365,6 +620,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>algs4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

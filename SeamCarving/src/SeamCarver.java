@@ -105,10 +105,12 @@ public class SeamCarver {
     }
 
     private Bag<Integer>[][] setAdj() {
-        Bag<Integer>[][] adj = new Bag[this.picture.width()][this.picture.height()];
+        int w = this.picture.width();
+        int h = this.picture.height();
+        Bag<Integer>[][] adj = (Bag<Integer>[][]) new Bag[w][h];
         for (int i = 0; i < this.picture.width(); i++) {
             for (int j = 0; j < this.picture.height(); j++) {
-                adj[i][j] = new Bag();
+                adj[i][j] = new Bag<>();
                 if (j > 0) {
                     if (i == 0) {
                         adj[i][j].add((j - 1) * this.picture.width() + i);
