@@ -2,68 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e790f15b-efe1-4710-8f8a-4085d67e5b5d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../52Tries.pdf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../53SubstringSearch.pdf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Boggle/.idea/libraries/algs4.xml" />
       <change beforePath="$PROJECT_DIR$/../Boggle/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Boggle/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/Boggle.iml" afterPath="$PROJECT_DIR$/../Boggle/Boggle.iml" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/BoggleBoard.java" afterPath="$PROJECT_DIR$/../Boggle/src/BoggleBoard.java" />
+      <change beforePath="$PROJECT_DIR$/../Boggle/src/BoggleGame.java" afterPath="$PROJECT_DIR$/../Boggle/src/BoggleGame.java" />
       <change beforePath="$PROJECT_DIR$/../Boggle/src/BoggleSolver.java" afterPath="$PROJECT_DIR$/../Boggle/src/BoggleSolver.java" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/BoggleBoard.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/BoggleGame.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-16q.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-antidisestablishmentarianisms.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-aqua.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-couscous.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-diagonal.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-dichlorodiphenyltrichloroethanes.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-dodo.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-estrangers.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-horizontal.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-inconsequentially.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-noon.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-pneumonoultramicroscopicsilicovolcanoconiosis.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points0.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points1.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points100.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points1000.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points1111.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points1250.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points13464.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points1500.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points2.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points200.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points2000.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points26539.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points3.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points300.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points4.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points400.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points4410.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points4527.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points4540.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points5.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points500.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points750.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-points777.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-q.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-quinquevalencies.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-qwerty.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-rotavator.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board-vertical.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/board4x4.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/dictionary-16q.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/dictionary-2letters.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/dictionary-algs4.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/dictionary-common.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/dictionary-enable2k.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/dictionary-nursery.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/dictionary-shakespeare.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/dictionary-sowpods.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/dictionary-twl06.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/dictionary-yawl.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Boggle/src/boggle/dictionary-zingarelli2005.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/SeamCarver.java" afterPath="$PROJECT_DIR$/src/SeamCarver.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,7 +20,7 @@
       <file leaf-file-name="SeamCarver.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SeamCarver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="296">
               <caret line="108" column="38" lean-forward="false" selection-start-line="108" selection-start-column="38" selection-end-line="108" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -568,6 +510,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1058,7 +1001,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SeamCarver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="296">
           <caret line="108" column="38" lean-forward="false" selection-start-line="108" selection-start-column="38" selection-end-line="108" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />

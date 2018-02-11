@@ -1,4 +1,4 @@
-package boggle; /******************************************************************************
+ /******************************************************************************
  *  Compilation:  javac BoggleGame.java
  *  Execution:    java BoggleGame [m n]
  *  Dependencies: BoggleSolver.java BoggleBoard.java 

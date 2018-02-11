@@ -1,4 +1,4 @@
-package boggle; /******************************************************************************
+ /******************************************************************************
  *  Compilation:  javac BoggleBoard.java
  *  Execution:    java  BoggleBoard
  *  Dependencies: StdRandom.java In.java StdOut.java
