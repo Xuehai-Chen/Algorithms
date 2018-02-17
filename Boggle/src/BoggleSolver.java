@@ -1,8 +1,4 @@
-import edu.princeton.cs.algs4.Graph;
-import edu.princeton.cs.algs4.In;
-import edu.princeton.cs.algs4.StdOut;
-import edu.princeton.cs.algs4.TST;
-import edu.princeton.cs.algs4.SET;
+import edu.princeton.cs.algs4.*;
 
 public class BoggleSolver {
 
@@ -38,16 +34,16 @@ public class BoggleSolver {
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 if (i != 0) {
-                    graph.addEdge(i * rows + j, (i - 1) * rows + j);
+                    graph.addEdge(i * cols + j, (i - 1) * cols + j);
                 }
                 if (j != 0) {
-                    graph.addEdge(i * rows + j, i * rows + j - 1);
+                    graph.addEdge(i * cols + j, i * cols + j - 1);
                 }
                 if (i != 0 && j != 0) {
-                    graph.addEdge(i * rows + j, (i - 1) * rows + j - 1);
+                    graph.addEdge(i * cols + j, (i - 1) * cols + j - 1);
                 }
-                if (i != 0 && j != 3) {
-                    graph.addEdge(i * rows + j, (i - 1) * rows + j + 1);
+                if (i != 0 && j != cols - 1) {
+                    graph.addEdge(i * cols + j, (i - 1) * cols + j + 1);
                 }
             }
         }
@@ -65,16 +61,16 @@ public class BoggleSolver {
             for (int j = 0; j < cols; j++) {
                 boolean[] marked = new boolean[rows * cols];
                 StringBuffer cur = new StringBuffer();
-                dfs(graph, board, rows, cur, rows * i + j, marked);
+                dfs(graph, board, cols, cur, cols * i + j, marked);
             }
         }
         return this.set;
     }
 
-    private void dfs(Graph graph, BoggleBoard board, int rows, StringBuffer cur, int v, boolean[] marked) {
+    private void dfs(Graph graph, BoggleBoard board, int cols, StringBuffer cur, int v, boolean[] marked) {
         //if (cur.toString().equals("ZIN")) StdOut.println("Hey, I'm here:" + v);
         marked[v] = true;
-        char charToAppend = board.getLetter(v / rows, v % rows);
+        char charToAppend = board.getLetter(v / cols, v % cols);
         if (charToAppend == 'Q') {
             cur.append("QU");
         } else {
@@ -93,7 +89,7 @@ public class BoggleSolver {
         }
         for (int w : graph.adj(v)) {
             if (!marked[w]) {
-                dfs(graph, board, rows, cur, w, marked);
+                dfs(graph, board, cols, cur, w, marked);
             }
         }
         if (this.dic.contains(cur.toString()) && cur.length() > 2) {
