@@ -18,46 +18,10 @@
       <file leaf-file-name="BoggleSolver.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BoggleSolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="79" column="28" lean-forward="false" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
+            <state relative-caret-position="302">
+              <caret line="74" column="10" lean-forward="false" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TST.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../algs4.jar!/edu/princeton/cs/algs4/TST.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-140">
-              <caret line="62" column="13" lean-forward="false" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
-              <folding>
-                <element signature="docComment;class#TST#0" expanded="false" />
-                <element signature="class#Node#0;class#TST#0" expanded="false" />
-                <element signature="docComment;method#TST#0;class#TST#0" expanded="false" />
-                <element signature="method#TST#0;class#TST#0" expanded="false" />
-                <element signature="docComment;method#size#0;class#TST#0" expanded="false" />
-                <element signature="docComment;method#contains#0;class#TST#0" expanded="false" />
-                <element signature="method#contains#0;class#TST#0" expanded="false" />
-                <element signature="docComment;method#get#0;class#TST#0" expanded="false" />
-                <element signature="method#get#0;class#TST#0" expanded="false" />
-                <element signature="method#get#1;class#TST#0" expanded="false" />
-                <element signature="docComment;method#put#0;class#TST#0" expanded="false" />
-                <element signature="method#put#0;class#TST#0" expanded="false" />
-                <element signature="method#put#1;class#TST#0" expanded="false" />
-                <element signature="docComment;method#longestPrefixOf#0;class#TST#0" expanded="false" />
-                <element signature="method#longestPrefixOf#0;class#TST#0" expanded="false" />
-                <element signature="docComment;method#keys#0;class#TST#0" expanded="false" />
-                <element signature="method#keys#0;class#TST#0" expanded="false" />
-                <element signature="docComment;method#keysWithPrefix#0;class#TST#0" expanded="false" />
-                <element signature="method#keysWithPrefix#0;class#TST#0" expanded="false" />
-                <element signature="method#collect#0;class#TST#0" expanded="false" />
-                <element signature="docComment;method#keysThatMatch#0;class#TST#0" expanded="false" />
-                <element signature="method#keysThatMatch#0;class#TST#0" expanded="false" />
-                <element signature="method#collect#1;class#TST#0" expanded="false" />
-                <element signature="docComment;method#main#0;class#TST#0" expanded="false" />
-                <element signature="method#main#0;class#TST#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -66,7 +30,7 @@
       <file leaf-file-name="TrieSET.java" pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/../../algs4.jar!/edu/princeton/cs/algs4/TrieSET.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
+            <state relative-caret-position="-931">
               <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
               <folding />
             </state>
@@ -180,6 +144,7 @@
       <find>cur</find>
       <find>marked</find>
       <find>localmarked</find>
+      <find>zi</find>
     </findStrings>
     <replaceStrings>
       <replace>localcur</replace>
@@ -330,7 +295,7 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="BoggleSolver" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="dictionary-algs4.txt board-q.txt" />
+      <option name="PROGRAM_PARAMETERS" value="dictionary-yawl.txt 10random.txt" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/src" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
@@ -445,7 +410,7 @@
       <workItem from="1518425589709" duration="5723000" />
       <workItem from="1518512151635" duration="2940000" />
       <workItem from="1518572009708" duration="6241000" />
-      <workItem from="1518668318371" duration="19416000" />
+      <workItem from="1518668318371" duration="23208000" />
     </task>
     <task id="LOCAL-00001" summary="boggle change file path">
       <created>1518258181933</created>
@@ -468,11 +433,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518428218446</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="get 41% for missing a lot of valid word.">
+      <created>1518858403992</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1518858403992</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56760000" />
+    <option name="totallyTimeSpent" value="60552000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -517,7 +489,8 @@
     <MESSAGE value="boggle change file path" />
     <MESSAGE value="some change in file package" />
     <MESSAGE value="almost accomplish the assignment except the bug in the recursive method" />
-    <option name="LAST_COMMIT_MESSAGE" value="almost accomplish the assignment except the bug in the recursive method" />
+    <MESSAGE value="get 41% for missing a lot of valid word." />
+    <option name="LAST_COMMIT_MESSAGE" value="get 41% for missing a lot of valid word." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -913,14 +886,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/board4x4.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BoggleGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3365">
@@ -1001,14 +966,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../algs4.jar!/edu/princeton/cs/algs4/TrieSET.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/board-points100.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1019,7 +976,7 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../algs4.jar!/edu/princeton/cs/algs4/TST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-140">
+        <state relative-caret-position="-240">
           <caret line="62" column="13" lean-forward="false" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
           <folding>
             <element signature="docComment;class#TST#0" expanded="false" />
@@ -1051,10 +1008,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/board4x4.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../algs4.jar!/edu/princeton/cs/algs4/TrieSET.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-931">
+          <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/BoggleSolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="79" column="28" lean-forward="false" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
+        <state relative-caret-position="302">
+          <caret line="74" column="10" lean-forward="false" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

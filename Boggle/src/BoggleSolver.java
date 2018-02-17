@@ -7,12 +7,8 @@ import java.util.HashSet;
 
 public class BoggleSolver {
 
+    private final TST<Integer> dic;
     private HashSet<String> set = new HashSet<>();
-    private TST<Integer> dic;
-    private Graph graph;
-    private BoggleBoard board;
-    private int cols;
-    private int rows;
 
     // Initializes the data structure using the given array of strings as the dictionary.
     // (You can assume each word in the dictionary contains only the uppercase letters A through Z.)
@@ -37,21 +33,22 @@ public class BoggleSolver {
         StdOut.println("Score = " + score);
     }
 
-    private void setGraph() {
-        this.graph = new Graph(rows * cols);
+    private void setGraph(Graph graph, BoggleBoard board) {
+        int rows = board.rows();
+        int cols = board.cols();
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 if (i != 0) {
-                    this.graph.addEdge(i * rows + j, (i - 1) * rows + j);
+                    graph.addEdge(i * rows + j, (i - 1) * rows + j);
                 }
                 if (j != 0) {
-                    this.graph.addEdge(i * rows + j, i * rows + j - 1);
+                    graph.addEdge(i * rows + j, i * rows + j - 1);
                 }
                 if (i != 0 && j != 0) {
-                    this.graph.addEdge(i * rows + j, (i - 1) * rows + j - 1);
+                    graph.addEdge(i * rows + j, (i - 1) * rows + j - 1);
                 }
                 if (i != 0 && j != 3) {
-                    this.graph.addEdge(i * rows + j, (i - 1) * rows + j + 1);
+                    graph.addEdge(i * rows + j, (i - 1) * rows + j + 1);
                 }
             }
         }
@@ -60,38 +57,54 @@ public class BoggleSolver {
 
     // Returns the set of all valid words in the given Boggle board, as an Iterable.
     public Iterable<String> getAllValidWords(BoggleBoard board) {
-        this.board = board;
-        this.cols = board.cols();
-        this.rows = board.rows();
-        setGraph();
+        int cols = board.cols();
+        int rows = board.rows();
+        Graph graph = new Graph(rows * cols);
+        setGraph(graph, board);
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 boolean[] marked = new boolean[rows * cols];
                 StringBuffer cur = new StringBuffer();
-                dfs(cur, rows * i + j, marked);
+                dfs(graph, board, rows, cur, rows * i + j, marked);
             }
         }
         return this.set;
     }
 
-    private void dfs(StringBuffer cur, int v, boolean[] marked) {
+    private void dfs(Graph graph, BoggleBoard board, int rows, StringBuffer cur, int v, boolean[] marked) {
+        //if (cur.toString().equals("ZIN")) StdOut.println("Hey, I'm here:" + v);
         marked[v] = true;
-        cur.append(board.getLetter(v / rows, v % rows));
-        if (cur.length() > 2 && !this.dic.keysThatMatch(cur.toString()).iterator().hasNext()) {
+        char charToAppend = board.getLetter(v / rows, v % rows);
+        if (charToAppend == 'Q') {
+            cur.append("QU");
+        } else {
+            cur.append(charToAppend);
+        }
+        if (cur.length() > 2 && !this.dic.keysWithPrefix(cur.toString()).iterator().hasNext()) {
             //StdOut.println("this is not a prefix in the dict: " + cur.toString());
-            cur.deleteCharAt(cur.length() - 1);
+            if (cur.charAt(cur.length() - 1) == 'U' && cur.charAt(cur.length() - 2) == 'Q') {
+                cur.deleteCharAt(cur.length() - 1);
+                cur.deleteCharAt(cur.length() - 1);
+            } else {
+                cur.deleteCharAt(cur.length() - 1);
+            }
             marked[v] = false;
             return;
         }
-        for (int w : this.graph.adj(v)) {
+        for (int w : graph.adj(v)) {
             if (!marked[w]) {
-                dfs(cur, w, marked);
+                dfs(graph, board, rows, cur, w, marked);
             }
         }
         if (this.dic.contains(cur.toString()) && cur.length() > 2) {
             set.add(cur.toString());
         }
-        cur.deleteCharAt(cur.length() - 1);
+        if (cur.length() > 1 && cur.charAt(cur.length() - 1) == 'U' && cur.charAt(cur.length() - 2) == 'Q') {
+            cur.deleteCharAt(cur.length() - 1);
+            cur.deleteCharAt(cur.length() - 1);
+        } else {
+            cur.deleteCharAt(cur.length() - 1);
+        }
         marked[v] = false;
     }
 
