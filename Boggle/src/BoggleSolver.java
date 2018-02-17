@@ -2,13 +2,12 @@ import edu.princeton.cs.algs4.Graph;
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.TST;
-
-import java.util.HashSet;
+import edu.princeton.cs.algs4.SET;
 
 public class BoggleSolver {
 
     private final TST<Integer> dic;
-    private HashSet<String> set = new HashSet<>();
+    private SET<String> set;
 
     // Initializes the data structure using the given array of strings as the dictionary.
     // (You can assume each word in the dictionary contains only the uppercase letters A through Z.)
@@ -57,6 +56,7 @@ public class BoggleSolver {
 
     // Returns the set of all valid words in the given Boggle board, as an Iterable.
     public Iterable<String> getAllValidWords(BoggleBoard board) {
+        this.set = new SET<>();
         int cols = board.cols();
         int rows = board.rows();
         Graph graph = new Graph(rows * cols);
