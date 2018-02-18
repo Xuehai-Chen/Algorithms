@@ -12,7 +12,6 @@ public class BoggleSolver {
         for (int i = 0; i < dictionary.length; i++) {
             this.dic.put(dictionary[i], i);
         }
-
     }
 
     public static void main(String[] args) {
@@ -47,7 +46,6 @@ public class BoggleSolver {
                 }
             }
         }
-        //StdOut.println(this.graph);
     }
 
     // Returns the set of all valid words in the given Boggle board, as an Iterable.
@@ -68,7 +66,6 @@ public class BoggleSolver {
     }
 
     private void dfs(Graph graph, BoggleBoard board, int cols, StringBuffer cur, int v, boolean[] marked) {
-        //if (cur.toString().equals("ZIN")) StdOut.println("Hey, I'm here:" + v);
         marked[v] = true;
         char charToAppend = board.getLetter(v / cols, v % cols);
         if (charToAppend == 'Q') {
@@ -77,7 +74,6 @@ public class BoggleSolver {
             cur.append(charToAppend);
         }
         if (cur.length() > 2 && !this.dic.keysWithPrefix(cur.toString()).iterator().hasNext()) {
-            //StdOut.println("this is not a prefix in the dict: " + cur.toString());
             if (cur.charAt(cur.length() - 1) == 'U' && cur.charAt(cur.length() - 2) == 'Q') {
                 cur.deleteCharAt(cur.length() - 1);
                 cur.deleteCharAt(cur.length() - 1);
