@@ -35,8 +35,8 @@ public class BurrowsWheeler {
         }
         for (int i = 0; i < N; i++) {
             BinaryStdOut.write((char) (circularSuffixArray[c.index(i)][source.size() - 1] & 0xff));
-            //System.out.println((char) (circularSuffixArray[c.index(i)][source.size() - 1] & 0xff));
         }
+        BinaryStdOut.close();
     }
 
     // apply Burrows-Wheeler inverse transform, reading from standard input and writing to standard output

@@ -7,8 +7,8 @@ public class MoveToFront {
 
     private static LinkedList<Character> initialize() {
         LinkedList<Character> list = new LinkedList<>();
-        for(int i=0;i<256;i++) {
-            list.add((char)i);
+        for (int i = 0; i < 256; i++) {
+            list.add((char) i);
         }
         return list;
     }
@@ -16,25 +16,23 @@ public class MoveToFront {
     // apply move-to-front encoding, reading from standard input and writing to standard output
     public static void encode() {
         LinkedList<Character> list = initialize();
-        while(!BinaryStdIn.isEmpty()){
-            int index = BinaryStdIn.readChar(8);
-            //System.out.println(index);
-            list.remove(index);
-            list.addFirst((char)index);
-            BinaryStdOut.write((char)index);
+        while (!BinaryStdIn.isEmpty()) {
+            char index = BinaryStdIn.readChar(8);
+            BinaryStdOut.write((char) (list.indexOf(index) & 0xff));
+            list.addFirst(list.remove((list.indexOf(index))));
         }
-        BinaryStdOut.write(true);
         BinaryStdOut.close();
     }
 
     // apply move-to-front decoding, reading from standard input and writing to standard output
     public static void decode() {
         LinkedList<Character> list = initialize();
-        while(!BinaryStdIn.isEmpty()){
-            int index = BinaryStdIn.readChar(8);
-            list.remove(index);
-            list.addFirst((char)index);
+        while (!BinaryStdIn.isEmpty()) {
+            char index = BinaryStdIn.readChar(8);
+            BinaryStdOut.write(list.get((int) index));
+            list.addFirst(list.remove(((int) index)));
         }
+        BinaryStdOut.close();
     }
 
     // if args[0] is '-', apply move-to-front encoding
