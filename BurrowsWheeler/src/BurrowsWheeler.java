@@ -4,22 +4,20 @@ import edu.princeton.cs.algs4.BinaryStdOut;
 import java.util.ArrayList;
 
 public class BurrowsWheeler {
-    private static CircularSuffixArray c;
-    private static StringBuffer sb = new StringBuffer();
     private static ArrayList<Integer> source = new ArrayList<>();
-
-    private static void initialize() {
+    private static CircularSuffixArray initialize() {
+        StringBuffer sb = new StringBuffer();
         while (!BinaryStdIn.isEmpty()) {
             char newchar = BinaryStdIn.readChar(8);
             source.add((int) newchar);
             sb.append(newchar);
         }
-        c = new CircularSuffixArray(sb.toString());
+        return new CircularSuffixArray(sb.toString());
     }
 
     // apply Burrows-Wheeler transform, reading from standard input and writing to standard output
     public static void transform() {
-        initialize();
+        CircularSuffixArray c = initialize();
         int N = c.length();
         for (int i = 0; i < N; i++) {
             if (c.index(i) == 0) {
@@ -34,7 +32,7 @@ public class BurrowsWheeler {
             }
         }
         for (int i = 0; i < N; i++) {
-            BinaryStdOut.write((char) (circularSuffixArray[c.index(i)][source.size() - 1] & 0xff));
+            BinaryStdOut.write((char) (circularSuffixArray[c.index(i)][N - 1] & 0xff));
         }
         BinaryStdOut.close();
     }
