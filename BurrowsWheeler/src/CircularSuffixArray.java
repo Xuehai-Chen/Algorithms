@@ -3,15 +3,15 @@ import edu.princeton.cs.algs4.In;
 public class CircularSuffixArray {
     private int[] index;
     private int N;
-    private int[][] circularSuffixArray;
+    private String s;
 
     // circular suffix array of s
     public CircularSuffixArray(String s) {
         if (s == null) throw new IllegalArgumentException();
+        this.s = s;
         this.N = s.length();
         index = new int[this.N];
-        setCircularSuffixArray(s);
-        setSortedArray(circularSuffixArray, this.N);
+        setSortedArray(this.N);
     }
 
     // unit testing (required)
@@ -26,39 +26,42 @@ public class CircularSuffixArray {
 
     }
 
-    private void setCircularSuffixArray(String s) {
+    private int[][] setCircularSuffixArray(String s) {
         int[] source = new int[N];
-        for(int i=0;i<N;i++) {
+        for (int i = 0; i < N; i++) {
             source[i] = s.charAt(i);
         }
-        circularSuffixArray = new int[N][N];
+        int[][] circularSuffixArray = new int[N][N];
         for (int i = 0; i < circularSuffixArray.length; i++) {
-            for(int j = i;j<N+i;j++) {
-                circularSuffixArray[i][j-i] = source[j % N];
+            for (int j = i; j < N + i; j++) {
+                circularSuffixArray[i][j - i] = source[j % N];
             }
         }
+        return circularSuffixArray;
     }
 
-    private void setSortedArray(int[][] a, int W) {
-        int N = a.length;
+    private char getChar(int i, int j) {
+        return s.charAt((i + j) % N);
+    }
+
+    private void setSortedArray(int N) {
         int R = 256;
-        int[][] sortedArray = new int[N][N];
-        int[] temp = new int[this.N];
-        for (int d = W - 1; d >= 0; d--) { // Sort by key-indexed counting on dth char.
+        int[] temp = new int[N];
+
+        for (int d = N - 1; d >= 0; d--) { // Sort by key-indexed counting on dth char.
             int[] count = new int[R + 1]; // Compute frequency counts.
             for (int i = 0; i < N; i++)
-                count[a[i][d] + 1]++;
+                count[getChar(d, i) + 1]++;
             for (int r = 0; r < R; r++) // Transform counts to indices.
                 count[r + 1] += count[r];
             for (int i = 0; i < N; i++) {
-                sortedArray[count[a[i][d]]++] = a[i];
-                if (d == W - 1) {
-                    index[i] = i;
+                if (d == N - 1) {
+                    temp[count[getChar(d, i)]++] = i;
+                }else{
+                    temp[count[getChar(d, index[i])]++] = index[i];
                 }
-                temp[count[a[i][d]] - 1] = index[i];
             }
             for (int i = 0; i < N; i++) {
-                a[i] = sortedArray[i];
                 this.index[i] = temp[i];
             }
         }
