@@ -1,18 +1,17 @@
 import edu.princeton.cs.algs4.BinaryStdIn;
 import edu.princeton.cs.algs4.BinaryStdOut;
 
-import java.util.ArrayList;
 
 public class BurrowsWheeler {
-    private static ArrayList<Integer> source = new ArrayList<>();
+    private static String s;
     private static CircularSuffixArray initialize() {
-        StringBuffer sb = new StringBuffer();
+        StringBuilder sb = new StringBuilder();
         while (!BinaryStdIn.isEmpty()) {
             char newchar = BinaryStdIn.readChar(8);
-            source.add((int) newchar);
             sb.append(newchar);
         }
-        return new CircularSuffixArray(sb.toString());
+        s = sb.toString();
+        return new CircularSuffixArray(s);
     }
 
     // apply Burrows-Wheeler transform, reading from standard input and writing to standard output
@@ -25,14 +24,8 @@ public class BurrowsWheeler {
                 break;
             }
         }
-        int[][] circularSuffixArray = new int[N][N];
-        for (int i = 0; i < circularSuffixArray.length; i++) {
-            for (int j = i; j < N + i; j++) {
-                circularSuffixArray[i][j - i] = source.get(j % N);
-            }
-        }
         for (int i = 0; i < N; i++) {
-            BinaryStdOut.write((char) (circularSuffixArray[c.index(i)][N - 1] & 0xff));
+            BinaryStdOut.write((char) (s.charAt((c.index(i) + N - 1) % N) & 0xff));
         }
         BinaryStdOut.close();
     }
